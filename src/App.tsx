@@ -127,7 +127,7 @@ const App = () => {
   
   return (
     <div style={{ maxWidth: 600, margin: 'auto', marginBottom: 20, }} className="App">
-      <Typography style={{ marginTop: 20, marginBottom: 20, }}>Anthony Helka - Todo Take Home</Typography>
+      <Typography style={{ marginTop: 20, marginBottom: 20, }}>Anthony Helka - Todo</Typography>
       {/* Loading spinner while we fetch our data */}
       {loadingUsers || loadingTodos ? (
         <Box
